@@ -1,0 +1,30 @@
+Start testing: Nov 02 02:11 -05
+----------------------------------------------------------
+1/1 Testing: ArrayStack.TestFuncions
+1/1 Test: ArrayStack.TestFuncions
+Command: "/home/robert/my_project/stack/build/hello_test" "--gtest_filter=ArrayStack.TestFuncions" "--gtest_also_run_disabled_tests"
+Directory: /home/robert/my_project/stack/build
+"ArrayStack.TestFuncions" start time: Nov 02 02:11 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/robert/my_project/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ArrayStack.TestFuncions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ArrayStack
+[ RUN      ] ArrayStack.TestFuncions
+[       OK ] ArrayStack.TestFuncions (0 ms)
+[----------] 1 test from ArrayStack (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ArrayStack.TestFuncions" end time: Nov 02 02:11 -05
+"ArrayStack.TestFuncions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 02 02:11 -05

@@ -1,0 +1,30 @@
+Start testing: Nov 02 02:04 -05
+----------------------------------------------------------
+1/1 Testing: LinkenList.testFuncion
+1/1 Test: LinkenList.testFuncion
+Command: "/home/robert/my_project/list/build/hello_test" "--gtest_filter=LinkenList.testFuncion" "--gtest_also_run_disabled_tests"
+Directory: /home/robert/my_project/list/build
+"LinkenList.testFuncion" start time: Nov 02 02:04 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/robert/my_project/list/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LinkenList.testFuncion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkenList
+[ RUN      ] LinkenList.testFuncion
+[       OK ] LinkenList.testFuncion (0 ms)
+[----------] 1 test from LinkenList (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkenList.testFuncion" end time: Nov 02 02:04 -05
+"LinkenList.testFuncion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 02 02:04 -05
