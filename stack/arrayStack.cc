@@ -42,8 +42,8 @@ T ArrayStack<T>::top(){
 
 template <typename T>
 bool ArrayStack<T>::empty(){
-    //pre
-    assert(sp == data || sp-1 == old);
     bool bol = sp == data;
     return bol;
+    //post
+    assert(sp == data || sp-1 == old);
 }
